@@ -1,0 +1,1 @@
+C:\Users\marco\AppData\Local\Programs\CLion\bin\gdb\win\x64\bin\gdb.exe -q -x "read_adc_buffers.py"

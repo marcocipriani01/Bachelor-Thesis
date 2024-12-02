@@ -1,0 +1,14 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.configureOnOpen": true,
+  "files.associations": {
+    "*.h": "c",
+    "*.c": "c",
+    "*.hpp": "cpp",
+    "*.cpp": "cpp"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true
+}
