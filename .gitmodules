@@ -1,0 +1,8 @@
+[submodule "CMSIS/CMSIS-DSP"]
+	path = CMSIS/CMSIS-DSP
+	url = https://github.com/ARM-software/CMSIS-DSP
+	branch = v1.16.2
+[submodule "CMSIS/CMSIS_6"]
+	path = CMSIS/CMSIS_6
+	url = https://github.com/ARM-software/CMSIS_6
+	branch = v6.1.0
