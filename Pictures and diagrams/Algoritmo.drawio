@@ -1,0 +1,96 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="ArupbsAuUYHyo9zigxGT">
+    <mxGraphModel dx="2049" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-2" target="uT8fo_8LZgW7ynWVBJuh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-2" value="Accensione" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-4" target="uT8fo_8LZgW7ynWVBJuh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-4" value="Inizializzazione periferiche, buffer e funzione finestra" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="680" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-5" target="uT8fo_8LZgW7ynWVBJuh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-5" value="Cambio della frequenza di campionamento" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-6" target="uT8fo_8LZgW7ynWVBJuh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-6" value="Impostazione del timer e avvio ADC e DMA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="680" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-7" target="uT8fo_8LZgW7ynWVBJuh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-7" target="uT8fo_8LZgW7ynWVBJuh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-7" value="Riempimento del&lt;div style=&quot;font-size: 11px;&quot;&gt;buffer ADC&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="800" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-12" target="uT8fo_8LZgW7ynWVBJuh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-12" value="Aggiunta dei dati nel buffer di input e calcolo FFT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-13" target="uT8fo_8LZgW7ynWVBJuh-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1390" />
+              <mxPoint x="740" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-13" value="Calcolo min, max,&lt;div&gt;media, RMS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="760" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-17" target="uT8fo_8LZgW7ynWVBJuh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-17" value="Calcolo modulo e moltiplicazione per fattore di scala" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-22" target="uT8fo_8LZgW7ynWVBJuh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-22" value="Algoritmo ricerca picchi FFT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-24" target="uT8fo_8LZgW7ynWVBJuh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-24" value="Calcolo frequenza fondamentale" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-32" target="uT8fo_8LZgW7ynWVBJuh-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1490" />
+              <mxPoint x="520" y="1490" />
+              <mxPoint x="520" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Artifakt Element;fontSize=11;fontStyle=1" edge="1" parent="1" source="uT8fo_8LZgW7ynWVBJuh-28" target="uT8fo_8LZgW7ynWVBJuh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-28" value="Ricerca armoniche e rilevamento forma d&#39;onda" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uT8fo_8LZgW7ynWVBJuh-32" value="Invio dei dati al PC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Artifakt Element;fontSize=11;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1410" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
