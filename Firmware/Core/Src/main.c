@@ -163,6 +163,7 @@ int main(void)
     if (adcStatus != ADC_SUCCESS) continue;
 
     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+    const uint32_t start = HAL_GetTick();
 
     DMM_DSP_AddADCData(adcData, ADC_OFFSET, ADC_TO_VOLTAGE);
     const float32_t* fft = DMM_DSP_Process();
@@ -182,6 +183,7 @@ int main(void)
     printf(">f%.3f\n", fundamental);
     printf(">T%.3f\n", 1000.0f / fundamental);
     printf(">a%.3f\n", 2.0f * fft[fundamentalIdx]);
+    printf(">p%d\n", HAL_GetTick() - start);
 
     uint8_t c;
     int sampleTime;
