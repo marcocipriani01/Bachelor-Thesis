@@ -3,7 +3,5 @@ Release/
 build/
 .settings/
 .idea/
-venv/
-.venv/
 .cache/
 CMakeLists_template.txt
